@@ -1,8 +1,16 @@
 # Table of content
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
-
-- file: index
-  sections:
-    - file: markdown
-    - file: notebooks
+- file: index 
+- part: Linear Algebra
+#  numbered: true
+  chapters: 
+    - file: 02-linalg/toc
+- part: Molecular Dynamics
+#  numbered: true
+  chapters: 
+    - file: 01-md/00-intro
+      sections: 
+        - file: 01-md/integrator
+        - file: 01-md/thermostat
+        - file: 01-md/longrangeint
